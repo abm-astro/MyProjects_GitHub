@@ -1,0 +1,24 @@
+--------------------------------
+>>>>>>>>>>>> TUPLAS <<<<<<<<<<<<
+--------------------------------
+
+*-* ACESSANDO ELEMENTOS  DE UMA TUPLA
+
+_ Elementos de uma tupla são indicados por índices. Iniciando por 0.
+_ Durante o fatiamento o último elemento é ignorado.
+
+
+** TUPLAS SÃO IMUTÁVEIS **
+
+_enumerate() da a posição.
+
+for a, b in enumerate(tupla):
+
+_O for recebe mais de uma variável.
+_sorted() para ordenar uma tupla.
+_ .count() para contar quantas vezes aparece na tupla.
+_ .index() para mostrar a posição desejada. Separar por vírgula para definir inicio Ex: .index(1 , 2) vai procurar 1 depois da posição 2.
+** Tuplas recebem todos os tipos de dados: str, int, float **
+_ del() para apagar tupla.
+_ max() para o maior valor de uma tupla, da pra usar em outros lugares
+_ min() para o menor valor de uma tupla, da pra usar em outros lugares

@@ -1,0 +1,12 @@
+>>>>>>>>>>>>> LISTAS <<<<<<<<<<<<
+*-* São mutáveis *-*
+
+- .append() adiciona elemento no final da lista
+- .insert(0, ) inserir objeto na posição desejada
+- del apagar elemento pela key
+- .pop() remove elemento pela key
+- .remove() remove o valor indicado
+- list() para declarar uma lista
+- .sort() colocar em ordem
+- .sort(reverse=True) ordenados em ordem reversa
+- len() tamanho da lista

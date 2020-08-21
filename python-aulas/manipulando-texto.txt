@@ -1,0 +1,116 @@
+================================================
+------ M A N I P U L A N   D O  T E X T O ------
+================================================
+
+- Todos os caracteres recebem um índice, iniciado em 0. Nota: Espaços são contabilizados.
+
+Fatiamento de uma string: É o mesmo que dividi-a em micro espaços de memória indicados por índice iniciado em 0, em PYTHON, maiúsculas são diferenciadas de minúsculas.
+
+Exemplo: {
+
+	name = Astro
+
+	// A é o índice 0 ; s índice 1 ; t índice 2 ; r índice 3 ; o índice 4
+
+	*Se o programador quiser "descobrir qual o caractere/letra/símbolo está no índice 3 em uma string qualquer e printa-la, então:
+
+	print(name[3])
+
+	O retorno será "r" }
+
+- Para o fatiamento de strings, o índice tem que estar posicionado entre "[" "]" colchetes.
+
+* M A I S  F O R M A S *
+
+Exemplo: {
+	text = oitenta por cento é prática
+
+	print(text[4:10])
+
+	O retorno será "nta po" }
+
+Ou seja, colocando um índice seguido por : e outro índice. O fatiamento ocorrerá do primeiro índice até o índice anterior ao segundo índice desejado.
+
+* O U T R A  F O R M A *
+
+Exemplo: {
+	text = 'jbl é uma marca boa e cara'
+	
+	print(text[1:12:2])
+
+	O retorno será "b  m a"}
+
+Ou seja, o terceiro índice, indica o "salto" dado no fatiamento, nesse caso de 2 em 2.
+
+* O U T R A  F O R M A *
+Exemplo: {
+	text = 'qualquer frase aqui'
+
+	print(text[:5])
+
+	O retorno será "qualq" }
+
+O fatiamento ocorrerá do início até o índice 4.
+
+-----------------------------------
+
+print(text[5:])
+
+Vai do índice indicado até o final.
+
+-----------------------------------
+
+print(text[2::2])
+
+Vai do índice 2 até o final pulando de 2 em 2.
+
+-----------------------------------
+
+===================================
+        - A N Á L I S E -
+===================================
+
+OBS: text é a variável com valor "qualquer frase aqui"
+
+len(text) -> tamanho da string
+
+text.count('a') -> contagem de "a" na string. Maiúsculas != minúsculas.
+
+text.count('a', 4, 7) -> contagem de "a" entre [4] e [6]
+
+text.find('qua') -> Indica o momento que começa a sequência. Se a string não existir na variavel o retorno é "-1"
+
+'aqui' in frase -> Se existir = True se não = False
+
+===================================
+   - T R A N S F O R M A Ç Ã O -
+===================================
+
+text.replace('aqui','inova') -> substitui aqui por inova
+
+text.upper() -> Coloca tudo em maiúsculas
+
+text.lower() -> Coloca tudo em minúsculas
+
+text.capitalize() -> Coloca tudo em minúsculas e a primeira em maiúscula.
+
+text.title() -> Faz quebra de palavras e tranforma as primeiras letras em maiúsculas
+
+text.strip() -> Remove espaços inúteis no inicio e final da string
+
+text.rstrip() -> r de right 'direita'
+
+text.lstrip() -> l de left 'esquerda'
+
+====================================
+        - D I V I S Ã O -
+====================================
+
+text.split() -> Divide a string onde tiver ' ' espaço
+
+====================================
+         - J U N Ç Ã O -
+====================================
+
+'-'.join(text) -> vai juntar a string com o separador indicado pela string
+

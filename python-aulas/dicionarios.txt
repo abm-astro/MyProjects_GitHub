@@ -1,0 +1,6 @@
+>>>>>> DICIONÁRIOS <<<<<<<
+
+.values() -> Valores do dicionário.
+.keys() -> Pega as chaves, índices.
+.items() -> Pega tudo no dicionário.
+.copy() -> copiar um dicionário
